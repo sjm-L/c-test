@@ -4,8 +4,10 @@ public class Test : MonoBehaviour
 {
     void Start()
     {
-      int age = 30;
-      Debug.Log(age);
+      float height1 =160.5f;
+      float height2;
+      height2 = height1;
+      Debug.Log(height2);
     }
 }
 
