@@ -2,11 +2,9 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    void Start()
+    void update()
     {
-      string name;
-      name = "정민";
-      Debug.Log(name);
+      Debug.Log("정민");
     }
 }
 
