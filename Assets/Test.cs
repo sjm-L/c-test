@@ -2,9 +2,15 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    void update()
+    void Start()
     {
-      Debug.Log("정민");
+      Debug.Log("시작");
+    }
+    void Update()
+    {
+      int a = 10;
+      a += 5;
+      Debug.Log(a);
     }
 }
 
